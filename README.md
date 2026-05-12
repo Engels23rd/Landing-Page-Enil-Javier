@@ -1,32 +1,22 @@
 # Enil Javier — Landing Page
 
-Landing page profesional desarrollada para la marca personal de **Enil Javier**, enfocada en comunicación digital, branding y presencia profesional.
+🟡 En desarrollo
 
 ---
 
-# Objetivo del Proyecto
-
-Crear una experiencia web moderna, elegante y minimalista que permita:
-
-- Presentar la marca personal de Enil Javier.
-- Mostrar servicios de branding y comunicación.
-- Generar confianza y presencia profesional.
-- Redirigir clientes potenciales hacia WhatsApp e Instagram.
-- Servir como portafolio digital moderno.
+Landing page profesional para la marca personal de Enil Javier, enfocada en comunicación digital, branding y presencia profesional. El objetivo principal es mostrar sus servicios, fortalecer su imagen en internet y conectar clientes potenciales mediante WhatsApp e Instagram.
 
 ---
 
-# Estilo Visual
-
-La página tendrá una identidad visual:
+# Estilo visual requerido por el cliente
 
 - Minimalista
-- Moderna
+- Moderno
 - Elegante
-- Creativa
+- Creativo
 - Premium
 
-Inspirada en tonos azules oscuros, degradados suaves y elementos visuales tecnológicos.
+Inspirado en tonos azules oscuros, degradados suaves y una estética tecnológica.
 
 ---
 
@@ -42,67 +32,17 @@ Inspirada en tonos azules oscuros, degradados suaves y elementos visuales tecnol
 
 # Estructura de la Landing Page
 
-## Inicio / Hero Section
-Presentación principal de la marca con llamada a la acción.
-
-## Sobre Mí
-Breve introducción profesional de Enil Javier.
-
-## Servicios
-Sección dedicada a branding, comunicación y servicios relacionados.
-
-## Proyectos / Trabajos
-Espacio para mostrar ejemplos visuales y proyectos realizados.
-
-## Diferencial
-Sección enfocada en calidad, eficiencia y creatividad.
-
-## Contacto
-Botones rápidos de WhatsApp, Instagram y correo electrónico.
-
----
-
-# Objetivo de Diseño
-
-La landing no busca verse corporativa tradicional.
-
-Se busca una experiencia:
-
-- Visualmente limpia
-- Moderna
-- Con espacios amplios
-- Tipografía fuerte
-- Animaciones suaves
-- Responsive para móviles
-
----
-
-# Hosting y Deployment
-
-El proyecto será desplegado utilizando:
-
-- GitHub
-- Vercel
-
-Dominio personalizado pendiente de definir.
-
----
-
-# Estado del Proyecto
-
-🟡 En desarrollo
+- Hero Section
+- Sobre mí
+- Servicios
+- Proyectos
+- Diferencial
+- Contacto
+- Footer
 
 ---
 
 # Capturas del Proyecto
-
-## Desktop
-
-<!-- Agregar imágenes aquí -->
-
----
-
-## Mobile
 
 <!-- Agregar imágenes aquí -->
 
@@ -112,4 +52,4 @@ Dominio personalizado pendiente de definir.
 
 Desarrollado por:
 
-**KodeRD**
+**Engels Urbano - KodeRD**
