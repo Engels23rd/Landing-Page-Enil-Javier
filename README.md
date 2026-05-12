@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Enil Javier — Landing Page
 
-## Getting Started
+Landing page profesional desarrollada para la marca personal de **Enil Javier**, enfocada en comunicación digital, branding y presencia profesional.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Objetivo del Proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Crear una experiencia web moderna, elegante y minimalista que permita:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Presentar la marca personal de Enil Javier.
+- Mostrar servicios de branding y comunicación.
+- Generar confianza y presencia profesional.
+- Redirigir clientes potenciales hacia WhatsApp e Instagram.
+- Servir como portafolio digital moderno.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Estilo Visual
 
-To learn more about Next.js, take a look at the following resources:
+La página tendrá una identidad visual:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Minimalista
+- Moderna
+- Elegante
+- Creativa
+- Premium
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Inspirada en tonos azules oscuros, degradados suaves y elementos visuales tecnológicos.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Tecnologías Utilizadas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- Vercel
+
+---
+
+# Estructura de la Landing Page
+
+## Inicio / Hero Section
+Presentación principal de la marca con llamada a la acción.
+
+## Sobre Mí
+Breve introducción profesional de Enil Javier.
+
+## Servicios
+Sección dedicada a branding, comunicación y servicios relacionados.
+
+## Proyectos / Trabajos
+Espacio para mostrar ejemplos visuales y proyectos realizados.
+
+## Diferencial
+Sección enfocada en calidad, eficiencia y creatividad.
+
+## Contacto
+Botones rápidos de WhatsApp, Instagram y correo electrónico.
+
+---
+
+# Objetivo de Diseño
+
+La landing no busca verse corporativa tradicional.
+
+Se busca una experiencia:
+
+- Visualmente limpia
+- Moderna
+- Con espacios amplios
+- Tipografía fuerte
+- Animaciones suaves
+- Responsive para móviles
+
+---
+
+# Hosting y Deployment
+
+El proyecto será desplegado utilizando:
+
+- GitHub
+- Vercel
+
+Dominio personalizado pendiente de definir.
+
+---
+
+# Estado del Proyecto
+
+🟡 En desarrollo
+
+---
+
+# Capturas del Proyecto
+
+## Desktop
+
+<!-- Agregar imágenes aquí -->
+
+---
+
+## Mobile
+
+<!-- Agregar imágenes aquí -->
+
+---
+
+# Autor
+
+Desarrollado por:
+
+**KodeRD**
