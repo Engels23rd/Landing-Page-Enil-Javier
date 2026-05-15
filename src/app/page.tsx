@@ -1,6 +1,27 @@
 import Image from "next/image";
 import perfil from "../media/fotos/perfil.png"
+import p1 from "../media/proyectos/1.jpg";
+import p2 from "../media/proyectos/2.jpg";
+import p3 from "../media/proyectos/3.jpg";
+import p4 from "../media/proyectos/4.jpeg";
+import p5 from "../media/proyectos/5.jpeg";
+import p6 from "../media/proyectos/6.jpeg";
+import p7 from "../media/proyectos/7.jpeg";
+import p8 from "../media/proyectos/8.jpeg";
+import p9 from "../media/proyectos/9.jpeg";
 
+
+const proyectos = [
+  { imagen: p1, titulo: "Branding estratégico", categoria: "Branding" },
+  { imagen: p2, titulo: "Beneficios del branding", categoria: "Campaña visual" },
+  { imagen: p3, titulo: "Contenido automotriz", categoria: "Contenido visual" },
+  { imagen: p4, titulo: "IA para proyectos", categoria: "Marketing digital" },
+  { imagen: p5, titulo: "Estrategia de herramientas", categoria: "Contenido educativo" },
+  { imagen: p6, titulo: "ChatGPT", categoria: "Comunicación digital" },
+  { imagen: p7, titulo: "Gemini", categoria: "Contenido digital" },
+  { imagen: p8, titulo: "Claude", categoria: "Redacción" },
+  { imagen: p9, titulo: "Comparativa digital", categoria: "Estrategia" },
+];
 
 export default function Home() {
   return (
@@ -145,19 +166,34 @@ export default function Home() {
             Proyectos y piezas visuales desarrolladas.
           </h2>
 
-          <div className="mt-8 grid gap-5 md:grid-cols-3 sm:mt-10">
-            {[1, 2, 3].map((item) => (
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {proyectos.map((proyecto) => (
               <div
-                key={item}
-                className="flex h-56 items-center justify-center rounded-3xl border border-[#2BB3E8]/30 bg-white/10 text-white/60 backdrop-blur-md sm:h-72"
+                key={proyecto.titulo}
+                className="group relative aspect-[4/5] overflow-hidden rounded-3xl border border-[#2BB3E8]/30 bg-white/10 shadow-xl"
               >
-                Imagen del proyecto
+                <Image
+                  src={proyecto.imagen}
+                  alt={proyecto.titulo}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-[#050A30]/90 via-[#050A30]/20 to-transparent opacity-90" />
+
+                <div className="absolute bottom-0 left-0 right-0 p-5 text-left">
+                  <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#A7E8FF]">
+                    {proyecto.categoria}
+                  </p>
+                  <h3 className="mt-2 text-xl font-bold text-white">
+                    {proyecto.titulo}
+                  </h3>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-
+      
       {/* DIFERENCIAL */}
       <section className="bg-white px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
         <div className="mx-auto max-w-6xl text-center">
