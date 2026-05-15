@@ -165,7 +165,7 @@ export default function Home() {
           </p>
 
           <h2 className="mx-auto max-w-2xl text-2xl font-bold leading-tight sm:text-4xl">
-            Proyectos y piezas visuales desarrolladas.
+            Proyectos y piezas visuales desarrolladas
           </h2>
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
