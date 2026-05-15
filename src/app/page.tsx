@@ -126,7 +126,9 @@ export default function Home() {
       </section>
 
       {/* SERVICIOS */}
-      <section className="bg-[#EAF2F8] px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
+      <section className="relative overflow-hidden bg-[#EAF2F8] px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
+        <div className="absolute left-[-120px] top-10 h-72 w-72 rounded-full bg-[#2BB3E8]/10 blur-3xl" />
+        <div className="absolute right-[-120px] bottom-0 h-80 w-80 rounded-full bg-[#0A4D8F]/10 blur-3xl" />
         <div className="mx-auto max-w-6xl text-center">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-[#0A4D8F] sm:text-sm">
             Servicios
@@ -141,7 +143,7 @@ export default function Home() {
               (service) => (
                 <div
                   key={service}
-                  className="rounded-3xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl sm:p-7"
+                  className="group rounded-3xl border border-transparent bg-white p-6 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-[#2BB3E8]/20 hover:shadow-[0_10px_40px_rgba(43,179,232,0.12)] sm:p-7"
                 >
                   <h3 className="text-xl font-bold">{service}</h3>
                   <p className="mt-3 text-sm leading-7 text-slate-600">
@@ -193,9 +195,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
       {/* DIFERENCIAL */}
-      <section className="bg-white px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
+      <section className="relative overflow-hidden bg-white px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
+        <div className="absolute left-1/2 top-20 h-[300px] w-[300px] -translate-x-1/2 rounded-full bg-[#2BB3E8]/10 blur-3xl" />
         <div className="mx-auto max-w-6xl text-center">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-[#0A4D8F] sm:text-sm">
             Diferencial
@@ -207,7 +210,9 @@ export default function Home() {
 
           <div className="mt-8 grid gap-5 md:grid-cols-3 sm:mt-10">
             {["Calidad", "Eficiencia", "Creatividad"].map((item) => (
-              <div key={item} className="rounded-3xl bg-[#EAF2F8] p-6 sm:p-7">
+              <div
+                  key={item}
+                  className="rounded-3xl border border-transparent bg-[#EAF2F8] p-6 transition-all duration-500 hover:-translate-y-2 hover:border-[#2BB3E8]/20 hover:shadow-[0_10px_35px_rgba(43,179,232,0.10)] sm:p-7">
                 <h3 className="text-xl font-bold">{item}</h3>
               </div>
             ))}
@@ -216,8 +221,9 @@ export default function Home() {
       </section>
 
       {/* CONTACTO */}
-      <section className="bg-[#EAF2F8] px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
-        <div className="mx-auto max-w-4xl rounded-[2rem] bg-white p-6 text-center shadow-sm sm:p-12">
+      <section className="relative overflow-hidden bg-[#EAF2F8] px-5 py-16 text-[#050A30] sm:px-8 sm:py-20 lg:px-12">
+        <div className="absolute right-[-100px] top-10 h-72 w-72 rounded-full bg-[#2BB3E8]/10 blur-3xl" />
+        <div className="mx-auto max-w-4xl rounded-[2rem] border border-white/50 bg-white/90 p-6 text-center shadow-[0_15px_50px_rgba(0,0,0,0.06)] backdrop-blur-sm sm:p-12">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.3em] text-[#0A4D8F] sm:text-sm">
             Contacto
           </p>
